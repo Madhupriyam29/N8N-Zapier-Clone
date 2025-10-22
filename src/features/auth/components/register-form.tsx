@@ -94,7 +94,8 @@ return (
                             type="button"
                             disabled={isPending}
                             >
-                            Continue with Github    
+                            Continue with Github  
+                            <Image alt="GitHub" src="/logos/github.svg" width={20} height={20} />   
                             </Button>
                             <Button 
                             variant="outline"
@@ -103,6 +104,7 @@ return (
                             disabled={isPending}
                             >
                             Continue with Google    
+                            <Image alt="Google" src="/logos/google.svg" width={20} height={20} />   
                             </Button>
 
                         </div>
